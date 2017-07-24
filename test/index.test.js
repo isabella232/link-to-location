@@ -34,11 +34,6 @@ describe('linkToLocation', () => {
       };
     });
 
-    test('creates an anchor element', () => {
-      linkToLocation('http://quux.corgly');
-      expect(global.document.createElement).toHaveBeenCalledWith('a');
-    });
-
     test('removes credentials from provided URL string and assigns to href property', () => {
       linkToLocation('http://foo:bar@quux.corgly');
       expect(anchorElement.href).toBe('quux.corgly');
