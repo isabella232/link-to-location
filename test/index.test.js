@@ -1,5 +1,5 @@
 'use strict';
-const {linkToLocation} = require('../index');
+const linkToLocation = require('../index');
 
 describe('linkToLocation', () => {
   beforeEach(() => {
