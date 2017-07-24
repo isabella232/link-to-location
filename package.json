@@ -1,6 +1,6 @@
 {
   "name": "link-to-location",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Convert a link (HTMLAnchorElement or URL) to an abbreviated Location object.",
   "main": "index.js",
   "jest": {
