@@ -7,7 +7,7 @@
  * @return {Object} - An abbreviated Location object.
  */
 module.exports = function (input) {
-  let link = input;
+  var link = input;
   // Take advantage of the browser's built-in URL parsing by creating
   // an anchor and then reading its properties.
   if (typeof input === 'string') {
