@@ -1,5 +1,5 @@
 {
-  "name": "link-to-location",
+  "name": "@mapbox/link-to-location",
   "version": "0.1.0",
   "description": "Convert a link (HTMLAnchorElement or URL) to an abbreviated Location object.",
   "main": "index.js",
